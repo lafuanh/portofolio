@@ -10,9 +10,12 @@ module.exports = {
       'white': '#ffffff',
       'my-black': '#01071d',
       'my-crown': '#fef2cc',
+      'my-brown' : '#241b12',
 
     },
     extend: {},
   },
-  plugins: [],
+  plugins: [
+    
+  ],
 }
