@@ -7,6 +7,29 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <!-- <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet"> -->
   <link href="./dist/output.css" rel="stylesheet">
+
+  <style>
+    @media (min-width: 100px) {
+    .headinge {
+      font-size: 3rem;
+      padding-top: 20%;
+    }
+  }
+  /* Media query for screens larger than 768px */
+  @media (min-width: 768px) {
+    .headinge {
+      font-size: 3rem;
+    }
+  }
+
+  /* Media query for screens larger than 1024px */
+  @media (min-width: 1024px) {
+    .headinge {
+      max-width: 90%;
+      font-size: 8rem;
+    }
+  }
+  </style>
 </head>
 <body class="bg-my-black">
     <header class="fixed top-0  w-full z-50 shadow-md ">
@@ -37,7 +60,7 @@
               </div>
             </div>
             <div class="absolute inset-0 w-full h-full">
-              <h1 class="text-8xl  text-white font-light text-center pt-48 z-10 drop-shadow-lg">ARDUANANTT</h1>
+              <h1 class=" text-white font-light text-center pt-48 z-10 drop-shadow-lg headinge">ARDUANANTT</h1>
             </div>
      
           </div>
